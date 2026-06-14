@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+ 
+}
+body{
+    background-color: black;
+}
+nav{
+    padding-top: 50px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+
+}
+ul{
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+    gap: 40px;
+    list-style-type: none;
+    /* margin-top: 85px; */
+}
+p{
+    color: whitesmoke;
+}
+h1{
+    color: white;
+}
+button{
+    color: white;
+    background-color: purple;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding:10px ;
+    border: none;
+}
+.parent{
+    position:relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+i{
+    color: white;
+}
+.landing-page-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 253px; */
+    flex: 1;
+}
+.landing-page-content p{
+    text-align: center;
+}
+.left-arrow{
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+.right-arrow{
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+.left-arrow,
+.right-arrow{
+    font-size: 30px;
+    color: white;
+}
+.dots{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 30px;
+}
+.dots span{
+    width: 8px;
+    height: 8px;
+    background-color: gray;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dots .active{
+    background-color: white;
+}
